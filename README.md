@@ -451,7 +451,6 @@ Boruta Feature Selection and Grid Search Paramater Tuning has been beneficial in
 
 
 
-
 ## 05_Heart_Patient__PredictUnseenData.ipynb
 ### 11. Prediction on New Test data
 Make Predictions on unseen Test Data for client assessment.
