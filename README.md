@@ -2,8 +2,9 @@
 Heart Patient Prognosis - Classification
 # Heart Patient Prognosis
 
-![alt text](https://drive.google.com/uc?id=1152zDyA_LAd4N-Uy2upylLm9Il-OLfTw)
-
+<p align="center">
+  <img src="images/HeartPatient.jpg">
+</p>
 
 ## Read Me
 
@@ -152,7 +153,9 @@ The data was inspected and the following was observered:
 **Balanced Data?**\
 Visualise the distribution of the target variable, 'Survived_1_year', to determine if the dataset is balanced.
 
-![alt text](https://drive.google.com/uc?id=1ZoYjwrEu_dCoaLyRs6u0MRTjKEW4tSox)
+<p align="center">
+  <img src="images/Heart Patient Survival distribution.jpg">
+</p>
 
 There are more than 8000 patients who did not survive for 1 year after treatment and more than 14000 patients who survived for at least 1 year after treatment. The ratio is less than 1:2. This imbalance (skew) is aceptable and does not require addressing.
 
@@ -181,7 +184,10 @@ One option is to fill the missing values with, for example, the Mode of the feat
 
 **Basic Statistical Description of the data**\
 This shows that the minimum and maximum values for numerical features are not all within expected ranges.
-![alt text](https://drive.google.com/uc?id=1ZhuiCKv-JdQEvwjpBYOPDJtC84cFiTOH)
+
+<p align="center">
+  <img src="images/DataStatDesc.jpg">
+</p>
 
 **Box Plot of Numerical Features**
 
@@ -202,8 +208,9 @@ A Box Plot shows the data by feature, displaying:
 - if and how the data is skewed.
 
 **Box Plots:**\
-![alt text](https://drive.google.com/uc?id=12dkIyedBsOD725QsjknkS7k4JZ3o2vih)
-
+<p align="center">
+  <img src="images/outliers.jpg">
+</p>
 There are some outliers in the features:
  - 'Patient_Age'
  - 'Patient_Body_Mass_Index'
@@ -230,7 +237,9 @@ Given the data above, the outliers for 'Patient_Body_Mass_Index' are acceptable 
 **Corelation**\
 Heat map of the correlation analysis between the continuous varibles.
 
-![alt text](https://drive.google.com/uc?id=1n0QGhlCdplikGG9rGfDaCFXma3SKYVeS)
+<p align="center">
+  <img src="images/heart_correlation_heatmap.jpg">
+</p>
 
 There is very little correlation between variables.
 
@@ -257,9 +266,9 @@ Survived_1_year      |   2
 
 **Visualization of categorical Variables**
 
-![alt text](https://drive.google.com/uc?id=1N4YLxytFE-KCh5JbMOsEZ7sl1pFUju49)
-
-
+<p align="center">
+  <img src="images/categoricalFeatures.jpg">
+</p>
 
 ## 03_Heart_Patient__Preprocessing.ipynb
 ### 4.   Data Preprocessing
@@ -396,7 +405,9 @@ This resulted in a slight reduction of prediction performance when compared to t
 > **RandomForestClassifier With Important Features: 0.8590514362057449**
 
 > B) Boruta ranks the importance of each feature in respect of the target feature as follows:\
-![alt text](https://drive.google.com/uc?id=15g9sM4RmUGtNGg40r_nNHDxRmtJHd3t0)
+<p align="center">
+  <img src="images/BorutaFeatureRank2.jpg">
+</p>
 
 New datasets of just the most significant features, ie those with a rank of 16 or better, were created (X_ranked_train and X_ranked_test) and the model rerun.\
 **No. of significant features (ie. Ranking < 17): 19 from the 24 provided.**
