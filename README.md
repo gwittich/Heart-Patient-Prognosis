@@ -1,6 +1,5 @@
 # Heart-Patient-Prognosis
 Heart Patient Prognosis - Classification
-# Heart Patient Prognosis
 
 <p align="center">
   <img src="images/HeartPatient.jpg">
