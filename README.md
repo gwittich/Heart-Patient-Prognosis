@@ -4,7 +4,6 @@ Heart Patient Prognosis - Classification
 <p align="center">
   <img src="images/HeartPatient.jpg">
 </p>
-![image](https://user-images.githubusercontent.com/62985375/123733025-5754c280-d8cd-11eb-8c35-c22f12e10172.png)
 
 ## Read Me
 
