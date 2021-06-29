@@ -17,16 +17,16 @@ Copyright:  Copyright 2020, Gail Wittich <br>
   *  Data Description
 
 * Approach
-  *  0.   Obtain Data
-  *  1.   Pre-process the data
-  *  2.   Data Analysis and Visualizations (EDA)
-  *  3.   Prepare train and test datasets
-  *  4.   Select models
-  *  5.   Train models
-  *  6.   Evaluate models
-  *  7.   Optimize best model
-  *  8.   Prediction on New Test data
-  *  9.   Conclusion
+      0.  Obtain Data <br>
+      1.  Pre-process the data <br>
+      2.  Data Analysis and Visualizations (EDA) <br>
+      3.  Prepare train and test datasets <br>
+      4.  Select models <br>
+      5.  Train models <br>
+      6.  Evaluate models <br>
+      7.  Optimize best model <br>
+      8.  Prediction on New Test data <br>
+      9.  Conclusion <br>
 
 
 # Problem Statement
